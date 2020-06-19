@@ -1,0 +1,86 @@
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: rgba(0, 174, 255, 0.5);
+}
+.container {
+  display: flex;
+  background-color: rgba(0, 174, 255, 0.5);
+  padding: 40px 0;
+  margin: 0 auto 20px;
+}
+.logo {
+  width: 55px;
+  height: 53px;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.logo-text {
+  color: #ffffff;
+  font-weight: 200;
+  line-height: 1.8em;
+  align-self: baseline;
+}
+.section {
+  justify-content: center;
+  text-align: center;
+  margin: 0px auto 100px;
+  text-align: center;
+}
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  margin: 15px auto 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.button1 a {
+  color: rgba(0, 174, 255);
+  border: rgba(0, 174, 255, 0.5) 2px solid;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin: 20px 10px;
+}
+.button2 a {
+  background-color: rgba(0, 174, 255, 0.5);
+  color: #ffffff;
+  border: rgba(0, 174, 255, 0.1) 2px solid;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin: 20px 10px;
+}
+.footer {
+  display: flex;
+
+  display: flex;
+  line-height: 27px;
+  color: rgb(0, 174, 255);
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+  margin: 0 15px;
+}
+.social-links p {
+  font-size: 15px;
+  
+}
+.social {
+  margin-right: 10px;
+}
